@@ -1,0 +1,102 @@
+body {
+    font-family: "Inter", serif;
+    font-size: 16px;
+}
+
+.card-inspiration {
+    width: 30%;
+    height: 30%;
+}
+
+.collection-img-main {
+    height: 145px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.collection-img-profiles {
+    display: flex;
+    margin-left: -2px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.collection-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    color: #1F2937;
+}
+
+.collection-card-count {
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: -0.16px;
+    color: #6B7280;
+}
+
+.collection-img-profile {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 80%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: -15px;
+}
+
+.splide__arrow--next {
+    background-size: 16px 16px;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='17' viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_178)'%3E%3Cpath d='M9.3 15.1219L7.9 13.7219L12.2 9.42186H0V7.42186H12.2L7.9 3.12186L9.3 1.72186L16 8.42186L9.3 15.1219Z' fill='%239CA3AF'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_178'%3E%3Crect width='16' height='16' fill='white' transform='translate(0 0.421875)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #374151;
+}
+
+.splide__arrow--prev {
+    background-size: 16px 16px;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' viewBox='0 0 16 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.7 14.1219L8.1 12.7219L3.8 8.42186H16V6.42186H3.8L8.1 2.12186L6.7 0.721863L0 7.42186L6.7 14.1219Z' fill='%239CA3AF'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #374151;
+    opacity: 50%;
+}
+
+.collection-card-body {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 27px;
+}
+
+.collection-card-body span {
+    margin: 0;
+}
+
+
+.splide__arrows {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.splide .splide__arrow {
+    font-size: 0;
+    position: static;
+    top: unset;
+    width: 56px;
+    height: 56px;
+}
+
+.splide__arrow svg {
+    display: none;
+}
+
+.bg-dark {
+    background-color: #1F2937;
+}
+
+.collection-card {
+    background-color: white;
+}
