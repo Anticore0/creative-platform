@@ -11,13 +11,90 @@ body {
     --border-radius: 25px;
 }
 
+.blog-cards-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.blog-cards * {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-cards {
+    justify-content: center;
+}
+
+.blog-cards h2 {
+    color: #1F2937;
+    margin-top: 55px;
+    margin-bottom: 75px;
+    font-size: 43px;
+    line-height: 48px;
+    letter-spacing: -0.48px;
+    font-weight: 800;
+}
+
+.blog-card h3 {
+    margin-top: 30px;
+
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.24px;
+    font-weight: 700;
+}
+
+.blog-card a {
+    text-decoration: none;
+    color: #1F2937;
+}
+
+.blog-cards p {
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin-top: 10px;
+}
+
+.blog-creator {
+    margin-top: 20px;
+}
+
+.blog-creator span {
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.blog-creator a {
+    color: #1F2937;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.blog-card-avatar {
+    border-radius: 50%;
+}
+
+.blog-banner {
+    height: 200px;
+    width: 100%;
+}
+
 .questions-container * {
     margin: 0;
     padding: 0;
 }
 
-.questions-container {
+.small-container {
     width: 1100px;
+    margin-bottom: 50px;
 }
 
 .questions-title {
