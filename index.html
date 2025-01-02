@@ -34,17 +34,18 @@
             </div>
         </div>
     </nav>
-    <header>
+    <header class="header">
         <div class="container d-flex align-items-center">
-            <div class="col-sm-6">
-                <h1>The platform for creative <span>Minds</span>.</h1>
+            <img class="hero-image" src="./images/hero-image.png">
+            <div class="col-sm-7">
+                <h1>The platform for creative <span class="header-span">Minds</span>.</h1>
                 <p>Our landing page template works on all devices, so you only have to set it up once, and get
                     beautiful results forever.</p>
-                <div class="d-flex">
-                    <button class="btn btn-primary">Join The Community</button>
-                    <button class="btn btn-light">Sign In</button>
+                <div class="header-btns d-flex">
+                    <button class="btn btn-primary community-btn">Join The Community</button>
+                    <button class="btn btn-light sign-in-btn">Sign In</button>
                 </div>
-                <div class="d-flex gap-1">
+                <div class="stat-container d-flex gap-1">
                     <div class="divider-icon">
                         <h6 class="m-0">27М</h6>
                         <p class="m-0">Inspiration</p>
@@ -59,72 +60,218 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </header>
     <main>
         <section>
             <div class="container">
-                <h2>Latest inspiration</h2>
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">View All</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Illustration</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Branding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Product Design</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Typography</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active">
-                        <div class="d-flex gap-4 flex-wrap">
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-01.png">
+                <div class="inspiration-container">
+                    <h2 class="inspiration-title">Latest inspiration</h2>
+                    <ul class="inspiration-navs nav nav-pills justify-content-start" id="inspirationTab" role="tablist">
+                        <li class=" nav-item">
+                            <a class="nav-link active" id="view-all-tab" data-bs-toggle="pill" aria-current="page"
+                                href="#view-all" role="tab" aria-controls="view-all" aria-selected="true">
+                                View All
+                                <span class="badge">2.7K</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="illustration-tab" data-bs-toggle="pill" href="#illustration"
+                                role="tab" aria-controls="illustration" aria-selected="false">
+                                Illustration
+                                <span class="badge">1.2K</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="branding-tab" data-bs-toggle="pill" href="#branding" role="tab"
+                                aria-controls="branding" aria-selected="false">
+                                Branding
+                                <span class="badge">900</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="product-design-tab" data-bs-toggle="pill" href="#product-design"
+                                role="tab" aria-controls="product-design" aria-selected="false">
+                                Product Design
+                                <span class="badge">3.4K</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="typography-tab" data-bs-toggle="pill" href="#typography" role="tab"
+                                aria-controls="typography" aria-selected="false">
+                                Typography
+                                <span class="badge">850</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="view-all" role="tabpanel"
+                            aria-labelledby="view-all-tab">
+                            <div class="inspirations-container">
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-01.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-02.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-03.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-04.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-05.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-06.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-07.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-08.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-09.png">
+                                </div>
                             </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-02.png">
+                        </div>
+                        <div class="tab-pane fade" id="illustration" role="tabpanel" aria-labelledby="illustration-tab">
+                            <div class="inspirations-container">
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-01.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-02.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-03.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-04.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-05.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-06.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-07.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-08.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-09.png">
+                                </div>
                             </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-03.png">
+                        </div>
+                        <div class="tab-pane fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+                            <div class="inspirations-container">
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-01.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-02.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-03.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-04.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-05.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-06.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-07.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-08.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-09.png">
+                                </div>
                             </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-04.png">
+                        </div>
+                        <div class="tab-pane fade" id="product-design" role="tabpanel"
+                            aria-labelledby="product-design-tab">
+                            <div class="inspirations-container">
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-01.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-02.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-03.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-04.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-05.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-06.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-07.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-08.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-09.png">
+                                </div>
                             </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-05.png">
-                            </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-06.png">
-                            </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-07.png">
-                            </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-08.png">
-                            </div>
-                            <div class="card-inspiration">
-                                <img class="img-fluid" src="/images/inspirations/inspiration-09.png">
+                        </div>
+                        <div class="tab-pane fade" id="typography" role="tabpanel" aria-labelledby="typography-tab">
+                            <div class="inspirations-container">
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-01.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-02.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-03.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-04.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-05.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-06.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-07.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-08.png">
+                                </div>
+                                <div class="card-inspiration">
+                                    <img class="img-fluid" src="/images/inspirations/inspiration-09.png">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane"></div>
-                    <div class="tab-pane"></div>
-                    <div class="tab-pane"></div>
-                    <div class="tab-pane"></div>
+                    <div class="inspiration-btn-container">
+                        <button type="button" class="btn btn-primary inspiration-btn">Join The Community</button>
+                    </div>
                 </div>
-                <button type="button" class="btn btn-primary">Join The Community</button>
             </div>
         </section>
         <section class="bg-dark">
-            <div class="container">
+            <div class="trending-container container">
                 <h2 class="text-center trending-title">Trending collections</h2>
                 <div id="slider1" class="splide" role="group">
                     <div class="splide__track">
@@ -299,22 +446,23 @@
         </section>
         <section>
             <div class="container subscriptions-container">
-                <h2 class="subscriptions-title text-center">Become a member of the best creative community</h2>
+                <h2 class="subscriptions-title text-center">Become a member of the<br> best creative community</h2>
                 <div class="subscriptions">
-                    <ul class="subscriptions-tabs nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                    <ul class="subscriptions-tabs nav-pills" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="yearly-tab" aria-current="page" data-bs-toggle="pill"
+                                href="#yearly" role="tab" aria-controls="yearly" aria-selected="true">
                                 Yearly <span class="discount-text">-20%</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Monthly</a>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="monthly-tab" data-bs-toggle="pill" href="#monthly" role="tab"
+                                aria-controls="monthly" aria-selected="false">Monthly</a>
                         </li>
                     </ul>
                 </div>
                 <div class="tab-content">
-                    <div class="tab-pane active">
+                    <div class="tab-pane fade show active" id="yearly" role="tabpanel" aria-labelledby="yearly-tab">
                         <div class="row">
-
                             <div class="features features-starter col-md-6">
                                 <h4>Starter</h4>
                                 <span class="price">Free</span>
@@ -342,7 +490,7 @@
                                 <div class="price">
                                     <span class="currency">$</span>
                                     <span class="price-number">29</span>
-                                    <span class="month">/mo</span>
+                                    <span class="month">/year</span>
                                 </div>
                                 <p>Get unlimited access to our new mood boarding tool.</p>
                                 <button type="button" class="free-start btn btn-primary">Start Free Trial</button>
@@ -367,13 +515,57 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane">
+                    <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
                         <div class="row">
-                            <div class="col-md-6">
-                                123
+                            <div class="features features-starter col-md-6">
+                                <h4>Starter</h4>
+                                <span class="price">Free</span>
+                                <p>Explore the tool, save inspiration and create collections.</p>
+                                <button type="button" class="btn btn-primary">Join The Community</button>
+                                <span class="features-title">Features include:</span>
+                                <ul class="features-list">
+                                    <li>
+                                        Unlimited placeholder texts
+                                    </li>
+                                    <li>
+                                        Consectetur adipiscing elit
+                                    </li>
+                                    <li>
+                                        Excepteur sint occaecat cupidatat
+                                    </li>
+                                    <li>
+                                        Officia deserunt mollit anim
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="col-md-6">
-                                123
+                            <div class="features features-business col-md-6">
+
+                                <h4>Business</h4>
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="price-number">4</span>
+                                    <span class="month">/mo</span>
+                                </div>
+                                <p>Get unlimited access to our new mood boarding tool.</p>
+                                <button type="button" class="free-start btn btn-primary">Start Free Trial</button>
+                                <span>All free features, plus:</span>
+                                <ul class="features-list">
+                                    <li>
+                                        Unlimited placeholder texts
+                                    </li>
+                                    <li>
+                                        Consectetur adipiscing elit
+                                    </li>
+                                    <li>
+                                        Excepteur sint occaecat cupidatat
+                                    </li>
+                                    <li>
+                                        Officia deserunt mollit anim
+                                    </li>
+                                    <li>
+                                        Excepteur sint occaecat cupidatat
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -523,8 +715,8 @@
         <section>
             <div class="container">
                 <div class="d-flex justify-content-center">
-                    <div class="blog-cards">
-                        <h2>From our blog</h2>
+                    <div class="small-container">
+                        <h2 class="blog-title">From our blog</h2>
                         <ul class="blog-cards-list small-container">
                             <li>
                                 <div class="blog-card">
@@ -581,7 +773,6 @@
                                 </div>
                             </li>
                         </ul>
-
                     </div>
                 </div>
             </div>
@@ -616,12 +807,13 @@
                             <span>About Get in touch Privacy & Terms</span>
                             <div>
                                 <ul class="about-item">
-                                    <li><a href="#"><img width="16px" height="16px"
+                                    <li><a href="#" class="social-link" aria-label="twitter"><img width="16" height="16"
                                                 src="/images/socialIcons/twitter.png" alt="twitter"></a></li>
-                                    <li><a href="#"><img width="16px" height="16px" src="/images/socialIcons/github.png"
-                                                alt="github"></a></li>
-                                    <li><a href=""><img width="16px" height="16px"
-                                                src="/images/socialIcons/telegram.png" alt="telegram"></a></li>
+                                    <li><a href="#" class="social-link" aria-label="github"><img width="16" height="16"
+                                                src="/images/socialIcons/github.png" alt="github"></a></li>
+                                    <li><a href="#" class="social-link" aria-label="telegram"><img width="16"
+                                                height="16" src="/images/socialIcons/telegram.png" alt="telegram"></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
