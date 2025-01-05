@@ -1,6 +1,6 @@
 new Splide('#slider1', {
     type: 'loop',
-    perPage: 5,
+    perPage: 4,
     pagination: false,
     gap: '1.1em',
     breakpoints: {
