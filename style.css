@@ -68,6 +68,12 @@ body {
     margin-bottom: 5px !important;
 }
 
+.stat-container span {
+    color: #1F2937;
+    font-size: 21px;
+    font-weight: 900;
+}
+
 .divider-icon {
     position: relative;
     margin-right: 60px;
@@ -350,12 +356,16 @@ body {
     font-size: 12px;
     line-height: 18px;
     letter-spacing: -0.16px;
-    color: #9CA3AF;
+    color: #374151;
 }
 
 .support a {
-    color: #3B82F6;
+    color: #2563EB;
     text-decoration: none;
+}
+
+.support a:hover {
+    color: #1E40AF;
 }
 
 .blog-cards-list {
@@ -555,7 +565,7 @@ body {
     padding-left: 25px;
 }
 
-.questions-container h5 {
+.questions-container h3 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
@@ -837,10 +847,6 @@ body {
     padding-bottom: 27px;
 }
 
-.collection-card-body span {
-    margin: 0;
-}
-
 .collection-card {
     background-color: white;
 }
@@ -864,11 +870,16 @@ body {
     color: #1F2937;
 }
 
+.collection-card-information span {
+    display: block;
+}
+
 .collection-card-count {
     font-style: italic;
     font-size: 14px;
     letter-spacing: -0.16px;
     color: #6B7280;
+    margin: 0;
 }
 
 .collection-img-profile {

@@ -4,7 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description"
+        content="Creative portfolio of a developer showcasing unique designs. Learn more about me, my projects, and services in web development and design.">
+
+    <meta name="keywords"
+        content="web development, creative portfolio, website design, freelance, web designer, modern technologies, UX/UI design, web development projects, frontend developer, educational project">
+
+    <meta name="author" content="Anticore0">
+
+    <meta property="og:image" content="./images/abstract.webp">
+    <meta property="og:description" content="Check out my creative portfolio with web design and development projects.">
+    <meta property="og:title" content="Creative Portfolio - Anticore0">
+
+    <meta name="date" content="2025-01-06">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anticore0.github.io/professional-portfolio-site/">
+    <meta property="og:site_name" content="Creative Portfolio">
+
+    <title>Creative Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
@@ -17,18 +36,19 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#"><img width="32px" height="32px" src="images/logo/logo.png"></a>
+            <a class="navbar-brand" href="#"><img width="32" height="32" src="images/logo/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Logo, Main Page">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <button class="btn sign-up-btn" type="button">Sign Up</button>
+                        <button aria-label="Sign In" class="btn sign-up-btn" type="button">Sign In</button>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-primary join-community-btn" type="button">Join The Community</button>
+                        <button aria-label="Join the Community" class="btn btn-primary join-community-btn"
+                            type="button">Join The Community</button>
                     </li>
                 </ul>
             </div>
@@ -36,7 +56,7 @@
     </nav>
     <header class="header">
         <div class="container d-flex align-items-center">
-            <img class="hero-image" src="./images/hero-image.png">
+            <img class="hero-image" src="./images/hero-image.png" alt="illustration of images">
             <div class="col-lg-8">
                 <div class="d-flex flex-column">
                     <h1 class="header-title">The platform for creative <span class="header-span">Minds</span>.</h1>
@@ -45,20 +65,21 @@
                             beautiful results forever.</p>
                     </div>
                     <div class="header-btns">
-                        <button class="btn btn-primary community-btn">Join The Community</button>
-                        <button class="btn btn-light sign-in-btn">Sign In</button>
+                        <button aria-label="Join the Community" class="btn btn-primary community-btn">Join The
+                            Community</button>
+                        <button aria-label="Sign In" class="btn btn-light sign-in-btn">Sign In</button>
                     </div>
                     <div class="stat-container">
                         <div class="divider-icon">
-                            <h6 class="m-0">27М</h6>
+                            <span class="m-0">27М</span>
                             <p class="m-0">Inspiration</p>
                         </div>
                         <div class="divider-icon">
-                            <h6 class="m-0">44K</h6>
+                            <span class="m-0">44K</span>
                             <p class="m-0">Collections</p>
                         </div>
                         <div>
-                            <h6 class="m-0">2M+</h6>
+                            <span class="m-0">2M+</span>
                             <p class="m-0">Creatives</p>
                         </div>
                     </div>
@@ -113,93 +134,144 @@
                             aria-labelledby="view-all-tab">
                             <div class="inspirations-container">
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-01.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-01.webp"
+                                        alt="A woman in the dark with splashes of different colors on her face">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-02.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-02.webp"
+                                        alt="An old painting of a girl lying down and another girl looking up at her.">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-03.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-03.webp"
+                                        alt="An orange question mark with a light bulb on the end in the void">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-04.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-04.webp"
+                                        alt="a woman with an orange cloth on her head">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-05.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-05.webp"
+                                        alt="a beautiful view of the skyscraper from below ">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-06.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-06.webp"
+                                        alt="A lot of gray and dark gray abstractions among which there is some orange among them">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-07.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-07.webp"
+                                        alt="Sculpture in neon color on a background of transparent glass with white palm trees around it">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-08.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-08.webp" alt="White swirling abstracts">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-09.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-09.webp"
+                                        alt="a lot of white icosaanders">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="illustration" role="tabpanel" aria-labelledby="illustration-tab">
                             <div class="inspirations-container">
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-01.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-01.webp"
+                                        alt="A woman in the dark with splashes of different colors on her face">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-02.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-02.webp"
+                                        alt="An old painting of a girl lying down and another girl looking up at her.">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-03.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-03.webp"
+                                        alt="An orange question mark with a light bulb on the end in the void">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-04.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-04.webp"
+                                        alt="a woman with an orange cloth on her head">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-05.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-05.webp"
+                                        alt="a beautiful view of the skyscraper from below ">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-06.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-06.webp"
+                                        alt="A lot of gray and dark gray abstractions among which there is some orange among them">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-07.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-07.webp"
+                                        alt="Sculpture in neon color on a background of transparent glass with white palm trees around it">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-08.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-08.webp" alt="White swirling abstracts">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-09.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-09.webp"
+                                        alt="a lot of white icosaanders">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
                             <div class="inspirations-container">
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-01.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-01.webp"
+                                        alt="A woman in the dark with splashes of different colors on her face">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-02.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-02.webp"
+                                        alt="An old painting of a girl lying down and another girl looking up at her.">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-03.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-03.webp"
+                                        alt="An orange question mark with a light bulb on the end in the void">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-04.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-04.webp"
+                                        alt="a woman with an orange cloth on her head">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-05.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-05.webp"
+                                        alt="a beautiful view of the skyscraper from below ">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-06.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-06.webp"
+                                        alt="A lot of gray and dark gray abstractions among which there is some orange among them">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-07.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-07.webp"
+                                        alt="Sculpture in neon color on a background of transparent glass with white palm trees around it">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-08.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-08.webp" alt="White swirling abstracts">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-09.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-09.webp"
+                                        alt="a lot of white icosaanders">
                                 </div>
                             </div>
                         </div>
@@ -207,68 +279,103 @@
                             aria-labelledby="product-design-tab">
                             <div class="inspirations-container">
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-01.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-01.webp"
+                                        alt="A woman in the dark with splashes of different colors on her face">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-02.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-02.webp"
+                                        alt="An old painting of a girl lying down and another girl looking up at her.">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-03.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-03.webp"
+                                        alt="An orange question mark with a light bulb on the end in the void">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-04.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-04.webp"
+                                        alt="a woman with an orange cloth on her head">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-05.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-05.webp"
+                                        alt="a beautiful view of the skyscraper from below ">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-06.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-06.webp"
+                                        alt="A lot of gray and dark gray abstractions among which there is some orange among them">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-07.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-07.webp"
+                                        alt="Sculpture in neon color on a background of transparent glass with white palm trees around it">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-08.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-08.webp" alt="White swirling abstracts">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-09.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-09.webp"
+                                        alt="a lot of white icosaanders">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="typography" role="tabpanel" aria-labelledby="typography-tab">
                             <div class="inspirations-container">
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-01.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-01.webp"
+                                        alt="A woman in the dark with splashes of different colors on her face">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-02.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-02.webp"
+                                        alt="An old painting of a girl lying down and another girl looking up at her.">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-03.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-03.webp"
+                                        alt="An orange question mark with a light bulb on the end in the void">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-04.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-04.webp"
+                                        alt="a woman with an orange cloth on her head">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-05.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-05.webp"
+                                        alt="a beautiful view of the skyscraper from below ">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-06.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-06.webp"
+                                        alt="A lot of gray and dark gray abstractions among which there is some orange among them">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-07.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-07.webp"
+                                        alt="Sculpture in neon color on a background of transparent glass with white palm trees around it">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-08.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-08.webp" alt="White swirling abstracts">
                                 </div>
                                 <div class="card-inspiration">
-                                    <img class="img-fluid" src="./images/inspirations/inspiration-09.png">
+                                    <img loading="lazy" class="img-fluid" width="352" height="352"
+                                        src="./images/inspirations/inspiration-09.webp"
+                                        alt="a lot of white icosaanders">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="inspiration-btn-container">
-                        <button type="button" class="btn btn-primary inspiration-btn">Join The Community</button>
+                        <button aria-label="Join the Community" type="button"
+                            class="btn btn-primary inspiration-btn">Join The Community</button>
                     </div>
                 </div>
             </div>
@@ -278,105 +385,125 @@
                 <h2 class="text-center trending-title">Trending collections</h2>
                 <div id="slider1" class="splide" role="group">
                     <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
+                        <ul class="splide__list" role="list">
+                            <li class="splide__slide" role="listitem">
                                 <div class="collection-card">
-                                    <img class="collection-img-main" src="./images/collections/trend_1.png">
+                                    <img loading="lazy" class="collection-img-main"
+                                        src="./images/collections/trend_1.webp"
+                                        alt="abstraction of different colors on the canvas">
                                     <div class="collection-card-body">
                                         <div class="collection-img-profiles">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_1.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_2.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_3.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_4.png">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_1.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_2.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_3.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_4.webp" alt="avatar">
                                         </div>
-                                        <h6 class="collection-card-title">Digital Art</h6>
-                                        <span class="collection-card-count">34 collections</span>
+                                        <div class="collection-card-information">
+                                            <span class="collection-card-title">Digital Art</span>
+                                            <span class="collection-card-count">34 collections</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="splide__slide">
+                            <li class="splide__slide" role="listitem">
                                 <div class="collection-card">
-                                    <img class="collection-img-main" src="./images/collections/trend_2.png">
+                                    <img loading="lazy" class="collection-img-main"
+                                        src="./images/collections/trend_2.webp"
+                                        alt="Nice white balloons with a gradient">
                                     <div class="collection-card-body">
                                         <div class="collection-img-profiles">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_1.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_2.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_3.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_4.png">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_1.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_2.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_3.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_4.webp" alt="avatar">
                                         </div>
-                                        <h6 class="collection-card-title">Digital Art</h6>
-                                        <span class="collection-card-count">34 collections</span>
+                                        <div class="collection-card-information">
+                                            <span class="collection-card-title">Digital Art</span>
+                                            <span class="collection-card-count">34 collections</span>
+                                        </div>
                                     </div>
                             </li>
-                            <li class="splide__slide">
+                            <li class="splide__slide" role="listitem">
                                 <div class="collection-card">
-                                    <img class="collection-img-main" src="./images/collections/trend_3.png">
+                                    <img loading="lazy" class="collection-img-main"
+                                        src="./images/collections/trend_3.webp"
+                                        alt="Twisted blue spiral with red illumination">
                                     <div class="collection-card-body">
                                         <div class="collection-img-profiles">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_1.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_2.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_3.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_4.png">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_1.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_2.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_3.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_4.webp" alt="avatar">
                                         </div>
-                                        <h6 class="collection-card-title">Digital Art</h6>
-                                        <span class="collection-card-count">34 collections</span>
+                                        <div class="collection-card-information">
+                                            <span class="collection-card-title">Digital Art</span>
+                                            <span class="collection-card-count">34 collections</span>
+                                        </div>
                                     </div>
                             </li>
-                            <li class="splide__slide">
+                            <li class="splide__slide" role="listitem">
                                 <div class="collection-card">
-                                    <img class="collection-img-main" src="./images/collections/trend_4.png">
+                                    <img loading="lazy" class="collection-img-main"
+                                        src="./images/collections/trend_4.webp"
+                                        alt="Multicolored abstract with legs and arms">
                                     <div class="collection-card-body">
                                         <div class="collection-img-profiles">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_1.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_2.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_3.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_4.png">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_1.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_2.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_3.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_4.webp" alt="avatar">
                                         </div>
-                                        <h6 class="collection-card-title">Digital Art</h6>
-                                        <span class="collection-card-count">34 collections</span>
+                                        <div class="collection-card-information">
+                                            <span class="collection-card-title">Digital Art</span>
+                                            <span class="collection-card-count">34 collections</span>
+                                        </div>
                                     </div>
                             </li>
-                            <li class="splide__slide">
+                            <li class="splide__slide" role="listitem">
                                 <div class="collection-card">
-                                    <img class="collection-img-main" src="./images/collections/trend_5.png">
+                                    <img loading="lazy" class="collection-img-main"
+                                        src="./images/collections/trend_5.webp"
+                                        alt="Beautiful fall view of the mountains">
                                     <div class="collection-card-body">
                                         <div class="collection-img-profiles">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_1.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_2.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_3.png">
-                                            <img class="collection-img-profile"
-                                                src="./images/collectionsAvatar/avatar_4.png">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_1.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_2.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_3.webp" alt="avatar">
+                                            <img loading="lazy" class="collection-img-profile"
+                                                src="./images/collectionsAvatar/avatar_4.webp" alt="avatar">
                                         </div>
-                                        <h6 class="collection-card-title">Digital Art</h6>
-                                        <span class="collection-card-count">34 collections</span>
+                                        <div class="collection-card-information">
+                                            <span class="collection-card-title">Digital Art</span>
+                                            <span class="collection-card-count">34 collections</span>
+                                        </div>
                                     </div>
                             </li>
                         </ul>
                     </div>
                     <div class="splide__arrows">
-                        <button class="splide__arrow splide__arrow--prev">
+                        <button aria-label="Previous slide" class="splide__arrow splide__arrow--prev">
                             Prev
                         </button>
-                        <button class="splide__arrow splide__arrow--next">
+                        <button aria-label="Next slide" class="splide__arrow splide__arrow--next">
                             Next
                         </button>
                     </div>
@@ -390,58 +517,74 @@
                     <div class="col-md-6">
                         <div class="d-grid creatives">
                             <div class="creatives-card">
-                                <img class="creatives-card_banner" src="./images/creativesProfiles/banner_1.png">
+                                <img loading="lazy" class="creatives-card_banner"
+                                    src="./images/creativesProfiles/banner_1.webp" alt="A view of the misty forest ">
                                 <div class="creatives-card-avatar_conainter">
-                                    <img class="creatives-card_avatar" src="./images/creativesProfiles/avatar_1.png">
+                                    <img loading="lazy" class="creatives-card_avatar"
+                                        src="./images/creativesProfiles/avatar_1.webp" alt="avatar">
                                 </div>
                                 <div class="creatives-card_info">
-                                    <h5 class="creatives-card_name"><b>Daniel Khan</b></h5>
+                                    <span class="creatives-card_name"><b>Daniel Khan</b></span>
                                     <span class="creatives-card_tag">@art-daniel-k</span>
-                                    <button class="creatives-card_button btn btn-dark">+ Follow</button>
+                                    <button aria-label="Follow" class="creatives-card_button btn btn-dark">+
+                                        Follow</button>
                                 </div>
                             </div>
                             <div class="creatives-card mt-3">
-                                <img class="creatives-card_banner" src="./images/creativesProfiles/banner_2.png">
+                                <img loading="lazy" class="creatives-card_banner"
+                                    src="./images/creativesProfiles/banner_2.webp"
+                                    alt="A girl is riding through a field on an old bicycle and the sun is shining towards her">
                                 <div class="creatives-card-avatar_conainter">
-                                    <img class="creatives-card_avatar" src="./images/creativesProfiles/avatar_2.png">
+                                    <img loading="lazy" class="creatives-card_avatar"
+                                        src="./images/creativesProfiles/avatar_2.webp" alt="avatar">
                                 </div>
                                 <div class="creatives-card_info">
-                                    <h5 class="creatives-card_name"><b>Daniel Khan</b></h5>
+                                    <span class="creatives-card_name"><b>Daniel Khan</b></span>
                                     <span class="creatives-card_tag">@art-daniel-k</span>
-                                    <button class="creatives-card_button btn btn-dark">+ Follow</button>
+                                    <button aria-label="Follow" class="creatives-card_button btn btn-dark">+
+                                        Follow</button>
                                 </div>
                             </div>
                             <div class="creatives-card mt-n3">
-                                <img class="creatives-card_banner" src="./images/creativesProfiles/banner_3.png">
+                                <img loading="lazy" class="creatives-card_banner"
+                                    src="./images/creativesProfiles/banner_3.webp"
+                                    alt="Two pink chairs against a turquoise wall backdrop">
                                 <div class="creatives-card-avatar_conainter">
-                                    <img class="creatives-card_avatar" src="./images/creativesProfiles/avatar_3.png">
+                                    <img loading="lazy" class="creatives-card_avatar"
+                                        src="./images/creativesProfiles/avatar_3.webp" alt="avatar">
                                 </div>
                                 <div class="creatives-card_info">
-                                    <h5 class="creatives-card_name"><b>Daniel Khan</b></h5>
+                                    <span class="creatives-card_name"><b>Daniel Khan</b></span>
                                     <span class="creatives-card_tag">@art-daniel-k</span>
-                                    <button class="creatives-card_button btn btn-dark">+ Follow</button>
+                                    <button aria-label="Follow" class="creatives-card_button btn btn-dark">+
+                                        Follow</button>
                                 </div>
                             </div>
                             <div class="creatives-card">
-                                <img class="creatives-card_banner" src="./images/creativesProfiles/banner_4.png">
+                                <img loading="lazy" class="creatives-card_banner"
+                                    src="./images/creativesProfiles/banner_4.webp"
+                                    alt="Transparent balls with neon gradient illumination">
                                 <div class="creatives-card-avatar_conainter">
-                                    <img class="creatives-card_avatar" src="./images/creativesProfiles/avatar_4.png">
+                                    <img loading="lazy" class="creatives-card_avatar"
+                                        src="./images/creativesProfiles/avatar_4.webp" alt="avatar">
                                 </div>
                                 <div class="creatives-card_info">
-                                    <h5 class="creatives-card_name"><b>Daniel Khan</b></h5>
+                                    <span class="creatives-card_name"><b>Daniel Khan</b></span>
                                     <span class="creatives-card_tag">@art-daniel-k</span>
-                                    <button class="creatives-card_button btn btn-dark">+ Follow</button>
+                                    <button aria-label="Follow" class="creatives-card_button btn btn-dark">+
+                                        Follow</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="creatives-more">
-                            <img width="330" height="180" src="images/creatives/frame_1.png">
+                            <img loading="lazy" width="330" height="180" src="images/creatives/frame_1.webp"
+                                alt="Different people's faces and the stripes between them">
                             <h4>More than a community</h4>
                             <p>It is a long established fact that a reader will be distracted by the readable content of
                                 a page when looking.</p>
-                            <button class="btn btn-primary">Join The Community</button>
+                            <button aria-label="Join The Community" class="btn btn-primary">Join The Community</button>
                         </div>
                     </div>
                 </div>
@@ -453,69 +596,72 @@
                 <div class="subscriptions">
                     <ul class="subscriptions-tabs nav-pills" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="yearly-tab" aria-current="page" data-bs-toggle="pill"
-                                href="#yearly" role="tab" aria-controls="yearly" aria-selected="true">
+                            <a aria-label="Yearly subscription" class="nav-link active" id="yearly-tab"
+                                aria-current="page" data-bs-toggle="pill" href="#yearly" role="tab"
+                                aria-controls="yearly" aria-selected="true">
                                 Yearly <span class="discount-text">-20%</span></a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="monthly-tab" data-bs-toggle="pill" href="#monthly" role="tab"
-                                aria-controls="monthly" aria-selected="false">Monthly</a>
+                            <a aria-label="Monthly subscription" class="nav-link" id="monthly-tab" data-bs-toggle="pill"
+                                href="#monthly" role="tab" aria-controls="monthly" aria-selected="false">Monthly</a>
                         </li>
                     </ul>
                 </div>
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="yearly" role="tabpanel" aria-labelledby="yearly-tab">
                         <div class="row justify-content-center">
-                                <div class="features features-starter col-md-6">
-                                    <h4>Starter</h4>
-                                    <span class="price">Free</span>
-                                    <p>Explore the tool, save inspiration and create collections.</p>
-                                    <button type="button" class="btn btn-primary">Join The Community</button>
-                                    <span class="features-title">Features include:</span>
-                                    <ul class="features-list">
-                                        <li>
-                                            Unlimited placeholder texts
-                                        </li>
-                                        <li>
-                                            Consectetur adipiscing elit
-                                        </li>
-                                        <li>
-                                            Excepteur sint occaecat cupidatat
-                                        </li>
-                                        <li>
-                                            Officia deserunt mollit anim
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="features features-business col-md-6">
+                            <div class="features features-starter col-md-6">
+                                <h4>Starter</h4>
+                                <span class="price">Free</span>
+                                <p>Explore the tool, save inspiration and create collections.</p>
+                                <button aria-label="Join The Community" type="button" class="btn btn-primary">Join The
+                                    Community</button>
+                                <span class="features-title">Features include:</span>
+                                <ul class="features-list">
+                                    <li>
+                                        Unlimited placeholder texts
+                                    </li>
+                                    <li>
+                                        Consectetur adipiscing elit
+                                    </li>
+                                    <li>
+                                        Excepteur sint occaecat cupidatat
+                                    </li>
+                                    <li>
+                                        Officia deserunt mollit anim
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="features features-business col-md-6">
 
-                                    <h4>Business</h4>
-                                    <div class="price">
-                                        <span class="currency">$</span>
-                                        <span class="price-number">29</span>
-                                        <span class="month">/year</span>
-                                    </div>
-                                    <p>Get unlimited access to our new mood boarding tool.</p>
-                                    <button type="button" class="free-start btn btn-primary">Start Free Trial</button>
-                                    <span>All free features, plus:</span>
-                                    <ul class="features-list">
-                                        <li>
-                                            Unlimited placeholder texts
-                                        </li>
-                                        <li>
-                                            Consectetur adipiscing elit
-                                        </li>
-                                        <li>
-                                            Excepteur sint occaecat cupidatat
-                                        </li>
-                                        <li>
-                                            Officia deserunt mollit anim
-                                        </li>
-                                        <li>
-                                            Excepteur sint occaecat cupidatat
-                                        </li>
-                                    </ul>
+                                <h4>Business</h4>
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="price-number">29</span>
+                                    <span class="month">/year</span>
                                 </div>
+                                <p>Get unlimited access to our new mood boarding tool.</p>
+                                <button aria-label="Start Free Trial" type="button"
+                                    class="free-start btn btn-primary">Start Free Trial</button>
+                                <span>All free features, plus:</span>
+                                <ul class="features-list">
+                                    <li>
+                                        Unlimited placeholder texts
+                                    </li>
+                                    <li>
+                                        Consectetur adipiscing elit
+                                    </li>
+                                    <li>
+                                        Excepteur sint occaecat cupidatat
+                                    </li>
+                                    <li>
+                                        Officia deserunt mollit anim
+                                    </li>
+                                    <li>
+                                        Excepteur sint occaecat cupidatat
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
@@ -524,7 +670,8 @@
                                 <h4>Starter</h4>
                                 <span class="price">Free</span>
                                 <p>Explore the tool, save inspiration and create collections.</p>
-                                <button type="button" class="btn btn-primary">Join The Community</button>
+                                <button aria-label="Join The Community" type="button" class="btn btn-primary">Join The
+                                    Community</button>
                                 <span class="features-title">Features include:</span>
                                 <ul class="features-list">
                                     <li>
@@ -550,7 +697,8 @@
                                     <span class="month">/mo</span>
                                 </div>
                                 <p>Get unlimited access to our new mood boarding tool.</p>
-                                <button type="button" class="free-start btn btn-primary">Start Free Trial</button>
+                                <button aria-label="Start Free Trial" type="button"
+                                    class="free-start btn btn-primary">Start Free Trial</button>
                                 <span>All free features, plus:</span>
                                 <ul class="features-list">
                                     <li>
@@ -587,8 +735,8 @@
                                             <li class="splide__slide">
                                                 <div class="story-card-container">
                                                     <div class="story-image">
-                                                        <img width="280" height="280" src="images/social/social_1.png"
-                                                            alt="girl">
+                                                        <img loading="lazy" width="280" height="280"
+                                                            src="images/social/social_1.webp" alt="avatar">
                                                         <div class="story-link">
                                                             <span>@cafromthesky</span>
                                                         </div>
@@ -602,7 +750,8 @@
                                                                 enjoyable product.
                                                                 Thanks for building it!</p>
                                                         </div>
-                                                        <button class="story-btn btn btn-primary" type="button">Read
+                                                        <button aria-label="Read story"
+                                                            class="story-btn btn btn-primary" type="button">Read
                                                             story
                                                             -></button>
                                                     </div>
@@ -611,8 +760,8 @@
                                             <li class="splide__slide">
                                                 <div class="story-card-container">
                                                     <div class="story-image">
-                                                        <img width="280" height="280" src="images/social/social_1.png"
-                                                            alt="girl">
+                                                        <img loading="lazy" width="280" height="280"
+                                                            src="images/social/social_1.webp" alt="avatar">
                                                         <div class="story-link">
                                                             <span>@cafromthesky</span>
                                                         </div>
@@ -626,7 +775,8 @@
                                                                 enjoyable product.
                                                                 Thanks for building it!</p>
                                                         </div>
-                                                        <button class="story-btn btn btn-primary" type="button">Read
+                                                        <button aria-label="Read Story"
+                                                            class="story-btn btn btn-primary" type="button">Read
                                                             story
                                                             -></button>
                                                     </div>
@@ -635,8 +785,8 @@
                                             <li class="splide__slide">
                                                 <div class="story-card-container">
                                                     <div class="story-image">
-                                                        <img width="280" height="280" src="images/social/social_1.png"
-                                                            alt="girl">
+                                                        <img loading="lazy" width="280" height="280"
+                                                            src="images/social/social_1.webp" alt="avatar">
                                                         <div class="story-link">
                                                             <span>@cafromthesky</span>
                                                         </div>
@@ -650,7 +800,8 @@
                                                                 enjoyable product.
                                                                 Thanks for building it!</p>
                                                         </div>
-                                                        <button class="story-btn btn btn-primary" type="button">Read
+                                                        <button aria-label="Read story"
+                                                            class="story-btn btn btn-primary" type="button">Read
                                                             story
                                                             -></button>
                                                     </div>
@@ -672,19 +823,19 @@
                         <h2 class="text-left questions-title">Questions and Answers</h2>
                         <div class="row">
                             <div class="col-md-6">
-                                <h5>What is the difference between the Free and Paid versions?</h5>
+                                <h3>What is the difference between the Free and Paid versions?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut
                                     labore et dolore magna aliqua, ut enim ad minim veniam.</p>
 
-                                <h5>Do you have student or non-profit discounts?</h5>
+                                <h3>Do you have student or non-profit discounts?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut
                                     labore et dolore magna aliqua, ut enim ad minim veniam.</p>
 
-                                <h5>How is the price determined?</h5>
+                                <h3>How is the price determined?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut
@@ -692,19 +843,19 @@
                             </div>
 
                             <div class="col-md-6">
-                                <h5>Do I need coding knowledge to use this product?</h5>
+                                <h3>Do I need coding knowledge to use this product?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut
                                     labore et dolore magna aliqua, ut enim ad minim veniam.</p>
 
-                                <h5>Is there a way to become an Affiliate reseller?</h5>
+                                <h3>Is there a way to become an Affiliate reseller?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut
                                     labore et dolore magna aliqua, ut enim ad minim veniam.</p>
 
-                                <h5>What forms of payment do you accept?</h5>
+                                <h3>What forms of payment do you accept?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut
@@ -723,9 +874,9 @@
                         <ul class="blog-cards-list small-container">
                             <li>
                                 <div class="blog-card">
-                                    <img class="blog-banner" src="./images/blog/background_1.png"
+                                    <img loading="lazy" class="blog-banner" src="./images/blog/background_1.webp"
                                         alt="black and white abstract houses">
-                                    <h3><a class="card-title" href="#" lang="eng">Concept Art & Illustrations by Stef
+                                    <h3><a class="card-title" href="#">Concept Art & Illustrations by Stef
                                             Euphoria</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor
@@ -733,17 +884,17 @@
                                         ut
                                         labore et dolore.</p>
                                     <div class="blog-creator">
-                                        <img class="blog-card-avatar" width="32" height="32"
-                                            src="./images/blog/avatars/avatar_1.png" alt="creator avatar">
+                                        <img loading="lazy" class="blog-card-avatar" width="32" height="32"
+                                            src="./images/blog/avatar_1.webp" alt="creator avatar">
                                         <span>By </span><a class="card-author" href="#">Knut Mayer</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="blog-card">
-                                    <img class="blog-banner" src="./images/blog/background_2.png"
-                                        alt="black and white abstract houses">
-                                    <h3><a class="card-title" href="#" lang="eng">Patrick Chen's Branding by Thought &
+                                    <img loading="lazy" class="blog-banner" src="./images/blog/background_2.webp"
+                                        alt="a flesh colored rose on a blue background.">
+                                    <h3><a class="card-title" href="#">Patrick Chen's Branding by Thought &
                                             Found Studio</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor
@@ -751,17 +902,17 @@
                                         ut
                                         labore et dolore.</p>
                                     <div class="blog-creator">
-                                        <img class="blog-card-avatar" width="32" height="32"
-                                            src="./images/blog/avatars/avatar_2.png" alt="creator avatar">
+                                        <img loading="lazy" class="blog-card-avatar" width="32" height="32"
+                                            src="./images/blog/avatar_2.webp" alt="creator avatar">
                                         <span>By </span><a class="card-author" href="#">Knut Mayer</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="blog-card">
-                                    <img class="blog-banner" src="./images/blog/background_3.png"
-                                        alt="black and white abstract houses">
-                                    <h3><a class="card-title" href="#" lang="eng">Soma Brewing Branding & Packaging by
+                                    <img loading="lazy" class="blog-banner" src="./images/blog/background_3.webp"
+                                        alt="An abstraction of multicolored legs and arms">
+                                    <h3><a class="card-title" href="#">Soma Brewing Branding & Packaging by
                                             Quim Martin</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor
@@ -769,8 +920,8 @@
                                         ut
                                         labore et dolore.</p>
                                     <div class="blog-creator">
-                                        <img class="blog-card-avatar" width="32" height="32"
-                                            src="./images/blog/avatars/avatar_3.png" alt="creator avatar">
+                                        <img loading="lazy" class="blog-card-avatar" width="32" height="32"
+                                            src="./images/blog/avatar_3.webp" alt="creator avatar">
                                         <span>By </span><a class="card-author" href="#">Knut Mayer</a>
                                     </div>
                                 </div>
@@ -786,7 +937,8 @@
                     <div class="small-container">
                         <div class="community-container">
                             <h2>Become a member of the best creative community</h2>
-                            <button type="button" class="btn btn-primary">Join The Community</button>
+                            <button aria-label="Join The Community" type="button" class="btn btn-primary">Join The
+                                Community</button>
                         </div>
                     </div>
                 </div>
@@ -799,23 +951,27 @@
                 <div class="d-flex justify-content-center">
                     <div class="small-container">
                         <div class="join-newsletter">
-                            <img width="32px" height="32px" src="./images/logo/logo.png" alt="logo">
+                            <img loading="lazy" width="32" height="32" src="./images/logo/logo.png" alt="logo">
                             <div class="join-newsletter-item">
                                 <input type="email" class="form-control" aria-describedby="emailHelp"
                                     placeholder="Your email">
-                                <button type="button" class="btn btn-primary">Join Newsletter</button>
+                                <button aria-label="Join Newsletter" type="button" class="btn btn-primary">Join
+                                    Newsletter</button>
                             </div>
                         </div>
                         <div class="about">
                             <span>About Get in touch Privacy & Terms</span>
                             <div>
                                 <ul class="about-item">
-                                    <li><a href="#" class="social-link" aria-label="twitter"><img width="16" height="16"
-                                                src="./images/socialIcons/twitter.png" alt="twitter"></a></li>
-                                    <li><a href="#" class="social-link" aria-label="github"><img width="16" height="16"
-                                                src="./images/socialIcons/github.png" alt="github"></a></li>
-                                    <li><a href="#" class="social-link" aria-label="telegram"><img width="16"
-                                                height="16" src="./images/socialIcons/telegram.png" alt="telegram"></a>
+                                    <li><a href="#" class="social-link" aria-label="twitter"><img loading="lazy"
+                                                width="16" height="16" src="./images/socialIcons/twitter.png"
+                                                alt="twitter"></a></li>
+                                    <li><a href="#" class="social-link" aria-label="github"><img loading="lazy"
+                                                width="16" height="16" src="./images/socialIcons/github.png"
+                                                alt="github"></a></li>
+                                    <li><a href="#" class="social-link" aria-label="telegram"><img loading="lazy"
+                                                width="16" height="16" src="./images/socialIcons/telegram.png"
+                                                alt="telegram"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -833,11 +989,11 @@
             </div>
         </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="main.js"></script>
+    <script defer src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script defer src="main.js"></script>
 </body>
 
 </html>
