@@ -1,14 +1,24 @@
-# My Practice Website
+# Creative Platform
 
-This is a learning project created entirely by me for practicing and enhancing web development skills. The site was built according to a design mockup using HTML, CSS, and Bootstrap, with Splide used for creating a slider. It is hosted on GitHub Pages.
+Creative Platform is a showcase website. The site was created based on a carefully crafted mockup, with the goal of demonstrating proficiency in designing a responsive, clean, and user-friendly web experience. It utilizes modern web technologies and components to provide a dynamic and engaging experience for users.
 
-## Technologies
-- HTML – site structure.
-- CSS – styling of the page.
-- Bootstrap – using ready-made components to simplify the layout.
-- Splide – slider for carousels and content.
-- Git – version control and collaboration.
-- GitHub Pages – hosting for the site.
+## Key Features:
+- Responsive Design: Ensures seamless functionality across all devices and screen sizes.
 
-## Accessibility
-The site is available at: https://anticore0.github.io/professional-portfolio-site/
+- Dynamic Content: Incorporates a carousel slider for showcasing key content and images.
+
+- Modern Web Design: A clean, intuitive layout prioritizing user experience and simplicity.
+
+## Technologies Used:
+
+- HTML: Structured for easy navigation and SEO optimization.
+
+- CSS: Custom styling for a sleek, professional appearance.
+
+- Bootstrap: Utilized to simplify layout design and enhance component flexibility.
+
+- Splide: Added a smooth, interactive slider functionality for images and content.
+
+## Live Preview
+
+Explore the site here: https://anticore0.github.io/professional-portfolio-site
