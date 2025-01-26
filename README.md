@@ -21,4 +21,4 @@ Creative Platform is a showcase website. The site was created based on a careful
 
 ## Live Preview
 
-Explore the site here: https://anticore0.github.io/professional-portfolio-site
+Explore the site here: https://anticore0.github.io/creative-platform/
